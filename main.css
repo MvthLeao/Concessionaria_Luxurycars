@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(229, 229, 229);
+    font-family: 'Slabo 27px', serif;
+    font-size: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(116, 5, 5);
+    color: #fff;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 52px;
+    font-family: 'Cinzel', serif;
+}
+
+header li {
+    font-size: 18px;
+    display: inline;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 5px;
+}
+
+section img {
+    margin: 24px;
+    height: 400px;
+}
+
+section .container {
+    display: flex;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(116, 5, 5);
+    font-family: 'Cinzel', serif;
+
+}
+
+section h3 {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: rgb(158, 109, 109);
+}
+
+section p {
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin: 25px;
+    margin-left: 15px;
+}
+
+section a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Slabo 27px', serif;
+    background-color: rgb(116, 5, 5);
+}
+
+#suv, #Conversível {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+#frase {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(116, 5, 5);
+    margin: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 5, 5);
+    height: 100%;
+
+}
+
+.formulario {
+    text-align: center;
+    display: flex;
+}
+
+.formulario form, input, button, textarea {
+    margin: 0 auto;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+input, textarea {
+    font-family: 'Slabo 27px', serif;
+}
+
+.formulario h2 {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+footer .container {
+    text-align: center;
+    background-color: rgb(87, 14, 14);
+    color: #fff;
+    padding: 10px;
+
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+form button {
+    background-color: rgb(158, 109, 109);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: rgb(87, 14, 14);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(87, 14, 14);
+}
